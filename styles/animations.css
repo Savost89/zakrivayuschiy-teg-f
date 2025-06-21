@@ -58,14 +58,10 @@
   transition: fill var(--time_step) ease 0.05s;
 }
 
-
-/* Р›Р°Р№РєРЅСѓР»Рё! */
-
 .card__icon-button .is-liked .core {
   fill: var(--heart-sparks-color);
   transition: fill var(--time_step) linear 0s;
 }
-
 
 .card__icon-button .is-liked .main-body {
   fill: var(--heart-sparks-color);
@@ -78,7 +74,7 @@
 }
 
 .card__icon-button .is-liked {
-  animation: like  var(--time_step) ease-in 0.1s 1;
+  animation: like var(--time_step) ease-in 0.1s 1;
   transform-origin: center;
 }
 
@@ -88,5 +84,4 @@
 
 .card__icon-button:focus-visible {
   outline-color: black;
-  transition:  outline-color var(--time_step) linear;
 }
